@@ -1,0 +1,2 @@
+# multiinstall
+a custom installator
