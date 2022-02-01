@@ -12,6 +12,7 @@ usage: ${0##*/} [flags]
 	--arch             Arch Based.
 	--opensuse             openSUSE Based.
 	--void			VoidLinux Based.
+	--alpine		Alpine Based.
 
 * MultiInstall NillyTheL0L 2022-2022
 
@@ -48,10 +49,26 @@ echo Hello $USERNAME just accept all and wait && sudo zypper install ark vim gim
 }
 
 
+alpine(){
+
+
+echo Hello $USERNAME just accept all and wait && sudo pkg add ark vim gimp vlc blender thunderbird flatpak inkscape gnome-terminal ktorrent gedit figlet nano git curl wget &&  flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo && flatpak install flathub com.valvesoftware.Steam  && figlet installed && figlet Reboot Now
+	
+}
+
+
 void(){
 
 
 echo Hello $USERNAME just accept all and wait && sudo xbps-install  ark vim gimp vlc blender thunderbird flatpak inkscape gnome-terminal ktorrent gedit figlet nano git curl wget &&  flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo && flatpak install flathub com.valvesoftware.Steam  && figlet installed && figlet Reboot Now
+	
+}
+
+
+freebsd(){
+
+
+echo Hello $USERNAME just accept all and wait && pkg install ark gimp-app vlc blender thunderbird inkscape gnome-terminal ktorrent gedit figlet nano git curl wget && figlet installed && figlet Reboot Now
 	
 }
 
@@ -72,9 +89,12 @@ while [[ "$1" ]]; do
             --arch|-a) arch;;
             --opensuse|-o) opensuse;;
             --void|-v) void;;
+            --alpine|-a) alpine;;
+            --freebsd|-b) freebsd;;
         esac
         shift
     } || {
         printf "\nBye\n" "%s" && exit 0
     }
+
 done
