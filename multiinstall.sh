@@ -52,7 +52,7 @@ echo Hello $USERNAME just accept all and wait && sudo zypper install ark vim gim
 alpine(){
 
 
-echo Hello $USERNAME just accept all and wait && sudo pkg add ark vim gimp vlc blender thunderbird flatpak inkscape gnome-terminal ktorrent gedit figlet nano git curl wget &&  flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo && flatpak install flathub com.valvesoftware.Steam  && figlet installed && figlet Reboot Now
+echo Hello $USERNAME just accept all and wait && sudo apk add ark vim gimp vlc blender thunderbird flatpak inkscape gnome-terminal ktorrent gedit figlet nano git curl wget &&  flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo && flatpak install flathub com.valvesoftware.Steam  && figlet installed && figlet Reboot Now
 	
 }
 
