@@ -13,6 +13,7 @@ usage: ${0##*/} [flags]
 	--opensuse             openSUSE Based.
 	--void			VoidLinux Based.
 	--alpine		Alpine Based.
+	--freebsd		FreeBsd Based.
 
 * MultiInstall NillyTheL0L 2022-2022
 
