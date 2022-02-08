@@ -38,7 +38,7 @@ echo Hello $USERNAME just accept all and wait && sudo dnf install ark micro vim 
 
 arch(){
 
-echo Hello $USERNAME just accept all and wait && sudo pacman -S ark micro vim gimp emacs vlc blender thunderbird flatpak inkscape gnome-terminal ktorrent gedit figlet nano snapd git curl wget && micro -plugin install filemanager && micro -plugin install nordcolors && flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo && flatpak install flathub com.valvesoftware.Steam && sudo snap install code --classic && sudo snap install authy && figlet installed && figlet Reboot Now
+echo Hello $USERNAME just accept all and wait && sudo pacman -S ark micro vim gimp emacs vlc blender thunderbird flatpak inkscape gnome-terminal ktorrent gedit figlet nano git curl wget && micro -plugin install filemanager && micro -plugin install nordcolors && flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo && flatpak install flathub com.valvesoftware.Steam && sudo snap install code --classic && sudo snap install authy && figlet installed && figlet Reboot Now
 	
 }
 
