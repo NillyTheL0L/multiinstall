@@ -26,26 +26,26 @@ EOF
 }
 ubuntu(){
 
-echo Hello $USERNAME just accept all and wait && sudo apt-get install ark micro emacs vim neovim gimp vlc blender thunderbird flatpak inkscape gnome-terminal lolcat unrar ubuntu-wallpapers ktorrent gedit figlet nano snapd git curl wget && micro -plugin install filemanager && micro -plugin install nordcolors && flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo && flatpak install flathub com.valvesoftware.Steam && sudo snap install code --classic && sudo snap install authy && figlet installed | lolcat && figlet Reboot Now | lolcat
+echo Hello $USERNAME just accept all and wait && sudo apt-get install ark micro kakoune emacs vim neovim gimp vlc blender thunderbird flatpak inkscape gnome-terminal lolcat unrar ubuntu-wallpapers ktorrent gedit figlet nano snapd git curl wget && micro -plugin install filemanager && micro -plugin install nordcolors && flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo && flatpak install flathub com.valvesoftware.Steam && sudo snap install code --classic && sudo snap install authy && figlet installed | lolcat && figlet Reboot Now | lolcat
 	
 }
 
 fedora(){
 
-echo Hello $USERNAME just accept all and wait && sudo dnf install ark micro vim emacs neovim gimp blender thunderbird flatpak inkscape gnome-terminal ktorrent gedit figlet nano snapd git curl wget && micro -plugin install filemanager && micro -plugin install nordcolors && flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo && flatpak install flathub com.valvesoftware.Steam && sudo snap install code --classic && sudo snap install authy && figlet installed && figlet Reboot Now
+echo Hello $USERNAME just accept all and wait && sudo dnf install ark micro kakoune vim emacs neovim gimp blender thunderbird flatpak inkscape gnome-terminal ktorrent gedit figlet nano snapd git curl wget && micro -plugin install filemanager && micro -plugin install nordcolors && flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo && flatpak install flathub com.valvesoftware.Steam && sudo snap install code --classic && sudo snap install authy && figlet installed && figlet Reboot Now
 	
 }
 
 arch(){
 
-echo Hello $USERNAME just accept all and wait && sudo pacman -S ark micro vim gimp emacs vlc blender thunderbird flatpak inkscape gnome-terminal ktorrent gedit figlet nano git curl wget && micro -plugin install filemanager && micro -plugin install nordcolors && flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo && flatpak install flathub com.valvesoftware.Steam && sudo snap install code --classic && sudo snap install authy && figlet installed && figlet Reboot Now
+echo Hello $USERNAME just accept all and wait && sudo pacman -S ark micro vim gimp kakoune emacs vlc blender thunderbird flatpak inkscape gnome-terminal ktorrent gedit figlet nano git curl wget && micro -plugin install filemanager && micro -plugin install nordcolors && flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo && flatpak install flathub com.valvesoftware.Steam && sudo snap install code --classic && sudo snap install authy && figlet installed && figlet Reboot Now
 	
 }
 
 opensuse(){
 
 
-echo Hello $USERNAME just accept all and wait && sudo zypper install ark vim gimp vlc emacs blender thunderbird flatpak inkscape gnome-terminal ktorrent gedit figlet nano snapd git curl wget &&  flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo && flatpak install flathub com.valvesoftware.Steam && sudo snap install code --classic && sudo snap install authy && figlet installed && figlet Reboot Now
+echo Hello $USERNAME just accept all and wait && sudo zypper install ark vim gimp vlc emacs kakoune blender thunderbird flatpak inkscape gnome-terminal ktorrent gedit figlet nano snapd git curl wget &&  flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo && flatpak install flathub com.valvesoftware.Steam && sudo snap install code --classic && sudo snap install authy && figlet installed && figlet Reboot Now
 	
 }
 
@@ -53,7 +53,7 @@ echo Hello $USERNAME just accept all and wait && sudo zypper install ark vim gim
 alpine(){
 
 
-echo Hello $USERNAME just accept all and wait && sudo apk add ark vim gimp vlc blender emacs thunderbird flatpak inkscape gnome-terminal ktorrent gedit figlet nano git curl wget &&  flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo && flatpak install flathub com.valvesoftware.Steam  && figlet installed && figlet Reboot Now
+echo Hello $USERNAME just accept all and wait && sudo apk add ark vim gimp vlc blender emacs kakoune thunderbird flatpak inkscape gnome-terminal ktorrent gedit figlet nano git curl wget &&  flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo && flatpak install flathub com.valvesoftware.Steam  && figlet installed && figlet Reboot Now
 	
 }
 
@@ -61,7 +61,7 @@ echo Hello $USERNAME just accept all and wait && sudo apk add ark vim gimp vlc b
 void(){
 
 
-echo Hello $USERNAME just accept all and wait && sudo xbps-install  ark vim gimp vlc blender emacs thunderbird flatpak inkscape gnome-terminal ktorrent gedit figlet nano git curl wget &&  flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo && flatpak install flathub com.valvesoftware.Steam  && figlet installed && figlet Reboot Now
+echo Hello $USERNAME just accept all and wait && sudo xbps-install  ark vim gimp vlc blender emacs kakoune thunderbird flatpak inkscape gnome-terminal ktorrent gedit figlet nano git curl wget &&  flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo && flatpak install flathub com.valvesoftware.Steam  && figlet installed && figlet Reboot Now
 	
 }
 
