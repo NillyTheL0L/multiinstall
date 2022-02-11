@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-wget https://raw.githubusercontent.com/NillyTheL0L/multiinstall/main/multiinstall.sh && wget https://download1494.mediafire.com/5x3dyqss0nlg/d6uqyukjhdj0cpu/mitysm.tar.gz && tar -xvf mitysm.tar.gz && sudo mkdir /usr/share/multiinstall/ && sudo mv multiinstalltysm /usr/share/multiinstall && sudo rm -rf mitysm.tar.gz && sudo mv multiinstall.sh /usr/bin/multiinstall && chmod +x /usr/bin/multiinstall && echo INSTALLED WITH SUCESS && firefox /usr/share/multiinstall/multiinstalltysm/minstalltysm.html
+wget https://raw.githubusercontent.com/NillyTheL0L/multiinstall/main/multiinstall.sh && sudo mv multiinstall.sh /usr/bin/multiinstall && chmod +x /usr/bin/multiinstall && echo INSTALLED WITH SUCESS 
